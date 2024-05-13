@@ -1,0 +1,6 @@
+Metody:
+1. automatyzacja walidacji danych wejściowych
+2. użycie testów jednostkowych i integracyjnych
+3. zastosowanie mechanizmów automatycznej obsługi błędów
+4. używanie transakcji lub potwierdzeń dla krytycznych operacji
+5. monitorowanie i alarmowanie
