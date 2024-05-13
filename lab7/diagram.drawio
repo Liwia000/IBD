@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" modified="2024-05-13T14:28:23.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ZwiZJ6V4jKS7vqjiJRti" version="24.4.0" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1050" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XpfgwTlZuxwArtDL-sGb-0" target="XpfgwTlZuxwArtDL-sGb-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="46" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="" nazwa="Azure IoT Hub" id="XpfgwTlZuxwArtDL-sGb-0">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/IoT_Hub.svg;labelBackgroundColor=none;noLabel=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="21.28" y="16.28" width="48.72" height="48.72" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/Time_Series_Insights_Environments.svg;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="20" width="49.26" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XpfgwTlZuxwArtDL-sGb-2" target="XpfgwTlZuxwArtDL-sGb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Stream_Analytics.svg;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="310" width="51.28" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Anomaly_Detector.svg;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="20" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XpfgwTlZuxwArtDL-sGb-4" target="XpfgwTlZuxwArtDL-sGb-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="18.58" width="50" height="44.11" as="geometry" />
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-5" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Data_Lake_Storage_Gen1.svg;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="310" width="49.23" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.991;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XpfgwTlZuxwArtDL-sGb-3" target="XpfgwTlZuxwArtDL-sGb-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-22" value="&lt;b&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;&#xa;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&#xa;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&#xa;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&#xa;mso-ansi-language:PL;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;Azure&#xa;Stream Analytics&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="240" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-23" value="&lt;b&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;&#xa;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&#xa;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&#xa;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&#xa;mso-ansi-language:PL;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;Azure&#xa;Machine Learning&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="359" y="-50" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-24" value="&lt;b&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;&#xa;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&#xa;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&#xa;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&#xa;mso-ansi-language:PL;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;Azure&#xa;Functions&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="-28.72" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-25" value="&lt;b&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;&#xa;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&#xa;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&#xa;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&#xa;mso-ansi-language:PL;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;Azure&#xa;Data Lake Storage&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="688.12" y="250" width="93" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-26" value="&lt;b&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;&#xa;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&#xa;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&#xa;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&#xa;mso-ansi-language:PL;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;Azure&#xa;Time Series Insights&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="-50" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-27" value="&lt;b&gt;&lt;span style=&quot;font-size:11.0pt;line-height:107%;&#xa;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&#xa;Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;&#xa;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&#xa;mso-ansi-language:PL;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;Azure&#xa;IoT Hub&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10.000000000000002" y="-28.72" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpfgwTlZuxwArtDL-sGb-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.048;entryY=0.599;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XpfgwTlZuxwArtDL-sGb-3" target="XpfgwTlZuxwArtDL-sGb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
